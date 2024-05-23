@@ -1,0 +1,1 @@
+# Rewriting my pathfinding algorithm visualizer in go. Doing this to help me learn the language.
