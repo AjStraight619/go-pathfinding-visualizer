@@ -10,6 +10,10 @@ func Astar(grid *grid.Grid, startNode *grid.Node, finishNode *grid.Node) {
 	openSet := pq.New()
 	openSet.Push(startNode)
 
+	for openSet.Len() > 0 {
+
+	}
+
 }
 
 func heuristic(startNode *grid.Node, finishNode *grid.Node) int {
