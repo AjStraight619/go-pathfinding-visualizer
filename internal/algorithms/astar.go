@@ -1,9 +1,15 @@
 package algorthims
 
-import "github.com/AjStraight619/pathfinding-go/internal/grid"
+import (
+	"github.com/AjStraight619/pathfinding-go/internal/grid"
+	"github.com/AjStraight619/pathfinding-go/internal/pq"
+)
 
 func Astar(grid *grid.Grid, startNode *grid.Node, finishNode *grid.Node) {
 	// Your A* implementation here
+	openSet := pq.New()
+	openSet.Push(startNode)
+
 }
 
 func heuristic(startNode *grid.Node, finishNode *grid.Node) int {

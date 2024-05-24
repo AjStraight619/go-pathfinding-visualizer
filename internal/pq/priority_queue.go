@@ -40,3 +40,9 @@ func (pq *PriorityQueue) Update(node *grid.Node, f int) {
 		}
 	}
 }
+
+func New() *PriorityQueue {
+	pq := &PriorityQueue{}
+	heap.Init(pq)
+	return pq
+}
